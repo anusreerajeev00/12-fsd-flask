@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Dashboard</h2>
+
+<p style="margin-top: 10px;">Welcome back</p>
+
+<p style="margin-top: 6px; font-size: 14px;">
+    Signed in as
+</p>
+
+<p style="margin-top: 4px; font-weight: 600;">
+    {{ email }}
+</p>
+
+<div style="margin-top: 28px;">
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+
+{% endblock %}

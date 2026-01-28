@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f6f7f9;
+    color: #2e2e2e;
+}
+
+/* Center card */
+.container {
+    width: 360px;
+    margin: 90px auto;
+    padding: 28px 26px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: 0.4px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9aa3af;
+    box-shadow: 0 0 0 2px rgba(156, 163, 175, 0.15);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #1f2933;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Links */
+a {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer text */
+p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+/* Error message */
+.error {
+    background: #fef2f2;
+    color: #991b1b;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+/* Dashboard specific */
+strong {
+    font-weight: 600;
+}
