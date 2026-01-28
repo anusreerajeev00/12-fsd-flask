@@ -9,7 +9,7 @@ This project implements a basic login and registration system using Flask, SQLit
 ## Project Setup (Linux)
 
 ### 1) Navigate to the project folder
-```bash
+bash
 cd 12-fsd-flask
 ### 2) Create and activate virtual environment
 bash
